@@ -63,11 +63,21 @@ return [
 ```
 Для работы с API необходимо указать Bearer Token в header. 
 
-Token: test.ione.
+Token: "test.ione"
 
 http://localhost/products - показывает весь список автомобилей
 
 http://localhost/products?fields=id,marka - показывает опреленные данные автомобилей
+Название полей:
+1. id,
+2. marka,
+3. model,
+4. tipDvigatelya
+5. privod,
+6. kolichestvo,
+7. price,
+8. status.
+
 
 http://localhost/products?filter[marka_id]=1 - показывает все автомобили идентификатор 
 марки, которых 1. 
